@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# no datatypes everything in shell considered as "String"
 number1=532
 number2=345
 name=bharath
