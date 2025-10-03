@@ -39,6 +39,9 @@ do
     fi
 done
 
+end_time=$(date +%s)
+TOTAL_TIME=$(($end_time-$start_time))
+echo "Time taken to execute the script $0 is: $TOTAL_TIME seconds" | tee -a $log_file
 
 
 
