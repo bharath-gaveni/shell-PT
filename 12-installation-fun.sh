@@ -20,10 +20,10 @@ validate() {
     fi
 }
 
-sudo dnfs install nginx -y
+sudo dnf install nginx -y
 validate $? "nginx"
 
-sudo dnf install zip -y
+sudo dnf install zipp -y
 validate $? "zip"
 
 sudo dnf install mysql -y
