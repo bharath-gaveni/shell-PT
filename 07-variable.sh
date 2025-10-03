@@ -7,3 +7,5 @@ echo "Home of directory of the script: $HOME"
 echo "who is the user running the script:$USER"
 echo "Process instance id of the script: $$"
 echo "Process instance of the last executed command in background: $!"
+echo "script name: $0"
+
