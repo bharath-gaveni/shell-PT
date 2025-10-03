@@ -20,7 +20,7 @@ validate() {
     fi
 }
 
-sudo dnf install nginxx -y
+sudo dnf installhjbh nginx -y
 validate $? "nginx"
 
 sudo dnf install zip -y
