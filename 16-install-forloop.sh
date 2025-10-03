@@ -4,7 +4,7 @@ R="\e[0;31m"
 G="\e[0;32m"
 Y="\e[0;33m"
 
-id =$(id -u)
+id=$(id -u)
 
 if [ $id -ne 0 ]; then
     echo -e "$R Please execute the script $0 with root user access privilage $N"
