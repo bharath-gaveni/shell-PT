@@ -16,11 +16,11 @@ validate() {
         echo -e "Installing $2 is $R FAILED $N"
         exit 1
     else
-        echo -e "Installing nginx is $G SUCCESS $N"
+        echo -e "Installing $2 is $G SUCCESS $N"
     fi
 }
 
-sudo dnf install nginx -y
+sudo dnf install nginxx -y
 validate $? "nginx"
 
 sudo dnf install zip -y
