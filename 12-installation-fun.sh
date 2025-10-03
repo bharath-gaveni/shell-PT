@@ -26,7 +26,7 @@ validate $? "nginx"
 sudo dnf install zip -y
 validate $? "zip"
 
-sudo dnf installqw mysql -y
+sudo dnf install mysql -y
 validate $? "mysql"
 
 
